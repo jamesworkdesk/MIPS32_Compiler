@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:\\\\Users\\\\BlueRobot\\\\Desktop\\\\projects\\\\MIPS32_Compiler\" log --oneline -10)",
+      "Bash(make clean:*)",
+      "Bash(make:*)",
+      "Bash(pacman -Q:*)",
+      "Bash(export PATH=\"/mingw64/bin:/usr/bin:/usr/local/bin:$PATH\")",
+      "Bash(g++:*)",
+      "Bash(env:*)",
+      "Bash(# Check if pacman is available for installing packages pacman --version && echo \"\"pacman available\"\" || echo \"\"no pacman\"\" # Check for chocolatey installs ls \"\"/c/ProgramData/chocolatey/bin/\"\")",
+      "Bash(/c/ProgramData/chocolatey/bin/choco.exe install:*)",
+      "Bash(export PATH=\"$HOME/mingw64/bin:$PATH\")",
+      "Bash(mingw32-make:*)",
+      "Bash(./assembler.exe:*)",
+      "Bash(python3.14:*)"
+    ]
+  }
+}
